@@ -1,0 +1,23 @@
+1) we nee to install the lib: virtualenv
+
+  windows  py -m pip install virtualenv
+  MAC      python3 -m pip install virtualenv
+  note: this is something that we do only one time
+
+2)then we want to create the virtual enviroment
+
+windows   py -m venv venv
+MAC       python3 -m venv venv
+
+3)active the virtual enviroment
+
+be sure that youre located in to the correct directory -- use "cd" 
+in the case that youre not.
+
+windows  venv\Scripts\activate
+MAC      source venv/bin/activate
+
+To install Flask 
+
+windows py -m pip install Flask
+Mac     python3 -m pip install Flask
